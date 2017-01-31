@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Finder Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanbeaulieu/FriendFinder.git"
+  },
+  "author": "Stefan Beaulieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanbeaulieu/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/stefanbeaulieu/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
